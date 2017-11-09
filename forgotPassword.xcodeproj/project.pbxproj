@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C79FD5B1FB442AF00E0C998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */; };
+		2C79FD5D1FB442AF00E0C998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD5C1FB442AF00E0C998 /* ViewController.swift */; };
+		2C79FD601FB442AF00E0C998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD5E1FB442AF00E0C998 /* Main.storyboard */; };
+		2C79FD631FB442AF00E0C998 /* forgotPassword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD611FB442AF00E0C998 /* forgotPassword.xcdatamodeld */; };
+		2C79FD651FB442AF00E0C998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD641FB442AF00E0C998 /* Assets.xcassets */; };
+		2C79FD681FB442AF00E0C998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD661FB442AF00E0C998 /* LaunchScreen.storyboard */; };
+		2C79FD731FB442AF00E0C998 /* forgotPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD721FB442AF00E0C998 /* forgotPasswordTests.swift */; };
+		2C79FD7E1FB442AF00E0C998 /* forgotPasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD7D1FB442AF00E0C998 /* forgotPasswordUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C79FD6F1FB442AF00E0C998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C79FD4F1FB442AE00E0C998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C79FD561FB442AE00E0C998;
+			remoteInfo = forgotPassword;
+		};
+		2C79FD7A1FB442AF00E0C998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C79FD4F1FB442AE00E0C998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C79FD561FB442AE00E0C998;
+			remoteInfo = forgotPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C79FD571FB442AE00E0C998 /* forgotPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forgotPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C79FD5C1FB442AF00E0C998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C79FD5F1FB442AF00E0C998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C79FD621FB442AF00E0C998 /* forgotPassword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = forgotPassword.xcdatamodel; sourceTree = "<group>"; };
+		2C79FD641FB442AF00E0C998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C79FD671FB442AF00E0C998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C79FD691FB442AF00E0C998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C79FD6E1FB442AF00E0C998 /* forgotPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forgotPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C79FD721FB442AF00E0C998 /* forgotPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordTests.swift; sourceTree = "<group>"; };
+		2C79FD741FB442AF00E0C998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C79FD791FB442AF00E0C998 /* forgotPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forgotPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C79FD7D1FB442AF00E0C998 /* forgotPasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordUITests.swift; sourceTree = "<group>"; };
+		2C79FD7F1FB442AF00E0C998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C79FD541FB442AE00E0C998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD6B1FB442AF00E0C998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD761FB442AF00E0C998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C79FD4E1FB442AE00E0C998 = {
+			isa = PBXGroup;
+			children = (
+				2C79FD591FB442AF00E0C998 /* forgotPassword */,
+				2C79FD711FB442AF00E0C998 /* forgotPasswordTests */,
+				2C79FD7C1FB442AF00E0C998 /* forgotPasswordUITests */,
+				2C79FD581FB442AE00E0C998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C79FD581FB442AE00E0C998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C79FD571FB442AE00E0C998 /* forgotPassword.app */,
+				2C79FD6E1FB442AF00E0C998 /* forgotPasswordTests.xctest */,
+				2C79FD791FB442AF00E0C998 /* forgotPasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C79FD591FB442AF00E0C998 /* forgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */,
+				2C79FD5C1FB442AF00E0C998 /* ViewController.swift */,
+				2C79FD5E1FB442AF00E0C998 /* Main.storyboard */,
+				2C79FD641FB442AF00E0C998 /* Assets.xcassets */,
+				2C79FD661FB442AF00E0C998 /* LaunchScreen.storyboard */,
+				2C79FD691FB442AF00E0C998 /* Info.plist */,
+				2C79FD611FB442AF00E0C998 /* forgotPassword.xcdatamodeld */,
+			);
+			path = forgotPassword;
+			sourceTree = "<group>";
+		};
+		2C79FD711FB442AF00E0C998 /* forgotPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C79FD721FB442AF00E0C998 /* forgotPasswordTests.swift */,
+				2C79FD741FB442AF00E0C998 /* Info.plist */,
+			);
+			path = forgotPasswordTests;
+			sourceTree = "<group>";
+		};
+		2C79FD7C1FB442AF00E0C998 /* forgotPasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C79FD7D1FB442AF00E0C998 /* forgotPasswordUITests.swift */,
+				2C79FD7F1FB442AF00E0C998 /* Info.plist */,
+			);
+			path = forgotPasswordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C79FD561FB442AE00E0C998 /* forgotPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C79FD821FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPassword" */;
+			buildPhases = (
+				2C79FD531FB442AE00E0C998 /* Sources */,
+				2C79FD541FB442AE00E0C998 /* Frameworks */,
+				2C79FD551FB442AE00E0C998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = forgotPassword;
+			productName = forgotPassword;
+			productReference = 2C79FD571FB442AE00E0C998 /* forgotPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C79FD6D1FB442AF00E0C998 /* forgotPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C79FD851FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordTests" */;
+			buildPhases = (
+				2C79FD6A1FB442AF00E0C998 /* Sources */,
+				2C79FD6B1FB442AF00E0C998 /* Frameworks */,
+				2C79FD6C1FB442AF00E0C998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C79FD701FB442AF00E0C998 /* PBXTargetDependency */,
+			);
+			name = forgotPasswordTests;
+			productName = forgotPasswordTests;
+			productReference = 2C79FD6E1FB442AF00E0C998 /* forgotPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C79FD781FB442AF00E0C998 /* forgotPasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C79FD881FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordUITests" */;
+			buildPhases = (
+				2C79FD751FB442AF00E0C998 /* Sources */,
+				2C79FD761FB442AF00E0C998 /* Frameworks */,
+				2C79FD771FB442AF00E0C998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C79FD7B1FB442AF00E0C998 /* PBXTargetDependency */,
+			);
+			name = forgotPasswordUITests;
+			productName = forgotPasswordUITests;
+			productReference = 2C79FD791FB442AF00E0C998 /* forgotPasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C79FD4F1FB442AE00E0C998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = raSe;
+				TargetAttributes = {
+					2C79FD561FB442AE00E0C998 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					2C79FD6D1FB442AF00E0C998 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C79FD561FB442AE00E0C998;
+					};
+					2C79FD781FB442AF00E0C998 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C79FD561FB442AE00E0C998;
+					};
+				};
+			};
+			buildConfigurationList = 2C79FD521FB442AE00E0C998 /* Build configuration list for PBXProject "forgotPassword" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C79FD4E1FB442AE00E0C998;
+			productRefGroup = 2C79FD581FB442AE00E0C998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C79FD561FB442AE00E0C998 /* forgotPassword */,
+				2C79FD6D1FB442AF00E0C998 /* forgotPasswordTests */,
+				2C79FD781FB442AF00E0C998 /* forgotPasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C79FD551FB442AE00E0C998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C79FD681FB442AF00E0C998 /* LaunchScreen.storyboard in Resources */,
+				2C79FD651FB442AF00E0C998 /* Assets.xcassets in Resources */,
+				2C79FD601FB442AF00E0C998 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD6C1FB442AF00E0C998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD771FB442AF00E0C998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C79FD531FB442AE00E0C998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C79FD5D1FB442AF00E0C998 /* ViewController.swift in Sources */,
+				2C79FD631FB442AF00E0C998 /* forgotPassword.xcdatamodeld in Sources */,
+				2C79FD5B1FB442AF00E0C998 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD6A1FB442AF00E0C998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C79FD731FB442AF00E0C998 /* forgotPasswordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C79FD751FB442AF00E0C998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C79FD7E1FB442AF00E0C998 /* forgotPasswordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C79FD701FB442AF00E0C998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C79FD561FB442AE00E0C998 /* forgotPassword */;
+			targetProxy = 2C79FD6F1FB442AF00E0C998 /* PBXContainerItemProxy */;
+		};
+		2C79FD7B1FB442AF00E0C998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C79FD561FB442AE00E0C998 /* forgotPassword */;
+			targetProxy = 2C79FD7A1FB442AF00E0C998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C79FD5E1FB442AF00E0C998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C79FD5F1FB442AF00E0C998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C79FD661FB442AF00E0C998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C79FD671FB442AF00E0C998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C79FD801FB442AF00E0C998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C79FD811FB442AF00E0C998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C79FD831FB442AF00E0C998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C79FD841FB442AF00E0C998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C79FD861FB442AF00E0C998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forgotPassword.app/forgotPassword";
+			};
+			name = Debug;
+		};
+		2C79FD871FB442AF00E0C998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forgotPassword.app/forgotPassword";
+			};
+			name = Release;
+		};
+		2C79FD891FB442AF00E0C998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = forgotPassword;
+			};
+			name = Debug;
+		};
+		2C79FD8A1FB442AF00E0C998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
+				INFOPLIST_FILE = forgotPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = forgotPassword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C79FD521FB442AE00E0C998 /* Build configuration list for PBXProject "forgotPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C79FD801FB442AF00E0C998 /* Debug */,
+				2C79FD811FB442AF00E0C998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C79FD821FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C79FD831FB442AF00E0C998 /* Debug */,
+				2C79FD841FB442AF00E0C998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C79FD851FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C79FD861FB442AF00E0C998 /* Debug */,
+				2C79FD871FB442AF00E0C998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C79FD881FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C79FD891FB442AF00E0C998 /* Debug */,
+				2C79FD8A1FB442AF00E0C998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C79FD611FB442AF00E0C998 /* forgotPassword.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C79FD621FB442AF00E0C998 /* forgotPassword.xcdatamodel */,
+			);
+			currentVersion = 2C79FD621FB442AF00E0C998 /* forgotPassword.xcdatamodel */;
+			path = forgotPassword.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C79FD4F1FB442AE00E0C998 /* Project object */;
+}
