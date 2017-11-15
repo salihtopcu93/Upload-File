@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125B2E6EE94CBAC3028107B5 /* Pods_forgotPasswordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467632408B4992D1F55B10C5 /* Pods_forgotPasswordUITests.framework */; };
+		2C4AE0251FB5ABE200E31B46 /* uploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AE0241FB5ABE200E31B46 /* uploadViewController.swift */; };
+		2C4AE0271FB5C7D300E31B46 /* twitterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AE0261FB5C7D300E31B46 /* twitterlogo.png */; };
 		2C79FD5B1FB442AF00E0C998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */; };
 		2C79FD5D1FB442AF00E0C998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD5C1FB442AF00E0C998 /* ViewController.swift */; };
 		2C79FD601FB442AF00E0C998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD5E1FB442AF00E0C998 /* Main.storyboard */; };
@@ -15,6 +18,12 @@
 		2C79FD681FB442AF00E0C998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD661FB442AF00E0C998 /* LaunchScreen.storyboard */; };
 		2C79FD731FB442AF00E0C998 /* forgotPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD721FB442AF00E0C998 /* forgotPasswordTests.swift */; };
 		2C79FD7E1FB442AF00E0C998 /* forgotPasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD7D1FB442AF00E0C998 /* forgotPasswordUITests.swift */; };
+		2C79FD8C1FB4522300E0C998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C79FD8B1FB4522300E0C998 /* GoogleService-Info.plist */; };
+		2C79FD901FB458D300E0C998 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD8F1FB458D300E0C998 /* signUpViewController.swift */; };
+		2C79FD921FB47BE300E0C998 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79FD911FB47BE300E0C998 /* forgotPasswordViewController.swift */; };
+		2CC5A8291FBC265C00047352 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5A8281FBC265C00047352 /* .gitignore */; };
+		92CAF6E880B5DFD2C3EF2916 /* Pods_forgotPasswordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3C97FA565CD9F5BDECBA27 /* Pods_forgotPasswordTests.framework */; };
+		9749F2AC2D0CFFEA23B74BAF /* Pods_forgotPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8206BDFA55C486882EEDFB7D /* Pods_forgotPassword.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23616A2793AB6E3A56FF2CC7 /* Pods-forgotPasswordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPasswordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPasswordTests/Pods-forgotPasswordTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C4AE0241FB5ABE200E31B46 /* uploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadViewController.swift; sourceTree = "<group>"; };
+		2C4AE0261FB5C7D300E31B46 /* twitterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterlogo.png; sourceTree = "<group>"; };
 		2C79FD571FB442AE00E0C998 /* forgotPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forgotPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C79FD5C1FB442AF00E0C998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		2C79FD791FB442AF00E0C998 /* forgotPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forgotPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C79FD7D1FB442AF00E0C998 /* forgotPasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordUITests.swift; sourceTree = "<group>"; };
 		2C79FD7F1FB442AF00E0C998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C79FD8B1FB4522300E0C998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C79FD8F1FB458D300E0C998 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		2C79FD911FB47BE300E0C998 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		2CB87284354F1E70C30E0B9A /* Pods-forgotPasswordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPasswordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPasswordUITests/Pods-forgotPasswordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CC5A8281FBC265C00047352 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		32E4DCE7087658FE2A969E4F /* Pods-forgotPasswordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPasswordUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPasswordUITests/Pods-forgotPasswordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		467632408B4992D1F55B10C5 /* Pods_forgotPasswordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forgotPasswordUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8206BDFA55C486882EEDFB7D /* Pods_forgotPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forgotPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E7F3C9974DC9B046FA45E2 /* Pods-forgotPasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPasswordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPasswordTests/Pods-forgotPasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE6990DCFEB9A8610B01F20 /* Pods-forgotPassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPassword.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPassword/Pods-forgotPassword.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3C97FA565CD9F5BDECBA27 /* Pods_forgotPasswordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forgotPasswordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72D1B37D0BD5ABA17F8A411 /* Pods-forgotPassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forgotPassword.release.xcconfig"; path = "Pods/Target Support Files/Pods-forgotPassword/Pods-forgotPassword.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9749F2AC2D0CFFEA23B74BAF /* Pods_forgotPassword.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CAF6E880B5DFD2C3EF2916 /* Pods_forgotPasswordTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125B2E6EE94CBAC3028107B5 /* Pods_forgotPasswordUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				2C79FD711FB442AF00E0C998 /* forgotPasswordTests */,
 				2C79FD7C1FB442AF00E0C998 /* forgotPasswordUITests */,
 				2C79FD581FB442AE00E0C998 /* Products */,
+				44C420E2C94603AF724363A1 /* Pods */,
+				41DFA912B40C1AC32E9AF7CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		2C79FD591FB442AF00E0C998 /* forgotPassword */ = {
 			isa = PBXGroup;
 			children = (
+				2C79FD8B1FB4522300E0C998 /* GoogleService-Info.plist */,
 				2C79FD5A1FB442AF00E0C998 /* AppDelegate.swift */,
 				2C79FD5C1FB442AF00E0C998 /* ViewController.swift */,
 				2C79FD5E1FB442AF00E0C998 /* Main.storyboard */,
@@ -106,6 +136,11 @@
 				2C79FD661FB442AF00E0C998 /* LaunchScreen.storyboard */,
 				2C79FD691FB442AF00E0C998 /* Info.plist */,
 				2C79FD611FB442AF00E0C998 /* forgotPassword.xcdatamodeld */,
+				2C79FD8F1FB458D300E0C998 /* signUpViewController.swift */,
+				2C79FD911FB47BE300E0C998 /* forgotPasswordViewController.swift */,
+				2C4AE0261FB5C7D300E31B46 /* twitterlogo.png */,
+				2C4AE0241FB5ABE200E31B46 /* uploadViewController.swift */,
+				2CC5A8281FBC265C00047352 /* .gitignore */,
 			);
 			path = forgotPassword;
 			sourceTree = "<group>";
@@ -128,6 +163,29 @@
 			path = forgotPasswordUITests;
 			sourceTree = "<group>";
 		};
+		41DFA912B40C1AC32E9AF7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8206BDFA55C486882EEDFB7D /* Pods_forgotPassword.framework */,
+				ED3C97FA565CD9F5BDECBA27 /* Pods_forgotPasswordTests.framework */,
+				467632408B4992D1F55B10C5 /* Pods_forgotPasswordUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44C420E2C94603AF724363A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE6990DCFEB9A8610B01F20 /* Pods-forgotPassword.debug.xcconfig */,
+				F72D1B37D0BD5ABA17F8A411 /* Pods-forgotPassword.release.xcconfig */,
+				85E7F3C9974DC9B046FA45E2 /* Pods-forgotPasswordTests.debug.xcconfig */,
+				23616A2793AB6E3A56FF2CC7 /* Pods-forgotPasswordTests.release.xcconfig */,
+				32E4DCE7087658FE2A969E4F /* Pods-forgotPasswordUITests.debug.xcconfig */,
+				2CB87284354F1E70C30E0B9A /* Pods-forgotPasswordUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C79FD821FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPassword" */;
 			buildPhases = (
+				70C64D2DF5F5A4ACA7AE8DD0 /* [CP] Check Pods Manifest.lock */,
 				2C79FD531FB442AE00E0C998 /* Sources */,
 				2C79FD541FB442AE00E0C998 /* Frameworks */,
 				2C79FD551FB442AE00E0C998 /* Resources */,
+				D7DE991CFBA7B60A1F66F1FD /* [CP] Embed Pods Frameworks */,
+				AA4142FD82F7829452B84FC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C79FD851FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordTests" */;
 			buildPhases = (
+				86E0AE3ECB42959684ED4C08 /* [CP] Check Pods Manifest.lock */,
 				2C79FD6A1FB442AF00E0C998 /* Sources */,
 				2C79FD6B1FB442AF00E0C998 /* Frameworks */,
 				2C79FD6C1FB442AF00E0C998 /* Resources */,
+				8D9479B28C2189DFB097DCC5 /* [CP] Embed Pods Frameworks */,
+				8C657689DA91FE9C0FEEA6B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C79FD881FB442AF00E0C998 /* Build configuration list for PBXNativeTarget "forgotPasswordUITests" */;
 			buildPhases = (
+				AD304F784F4CFD14F3DDF2E6 /* [CP] Check Pods Manifest.lock */,
 				2C79FD751FB442AF00E0C998 /* Sources */,
 				2C79FD761FB442AF00E0C998 /* Frameworks */,
 				2C79FD771FB442AF00E0C998 /* Resources */,
+				7D837487D9CAABA9306DE570 /* [CP] Embed Pods Frameworks */,
+				8F2A642C16699B10EA10AD80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C79FD681FB442AF00E0C998 /* LaunchScreen.storyboard in Resources */,
+				2C79FD8C1FB4522300E0C998 /* GoogleService-Info.plist in Resources */,
 				2C79FD651FB442AF00E0C998 /* Assets.xcassets in Resources */,
+				2C4AE0271FB5C7D300E31B46 /* twitterlogo.png in Resources */,
+				2CC5A8291FBC265C00047352 /* .gitignore in Resources */,
 				2C79FD601FB442AF00E0C998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +327,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70C64D2DF5F5A4ACA7AE8DD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-forgotPassword-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D837487D9CAABA9306DE570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPasswordUITests/Pods-forgotPasswordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E0AE3ECB42959684ED4C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-forgotPasswordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C657689DA91FE9C0FEEA6B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPasswordTests/Pods-forgotPasswordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9479B28C2189DFB097DCC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPasswordTests/Pods-forgotPasswordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2A642C16699B10EA10AD80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPasswordUITests/Pods-forgotPasswordUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4142FD82F7829452B84FC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPassword/Pods-forgotPassword-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD304F784F4CFD14F3DDF2E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-forgotPasswordUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DE991CFBA7B60A1F66F1FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-forgotPassword/Pods-forgotPassword-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures/BrightFutures.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NADocumentPicker/NADocumentPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NADocumentPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-forgotPassword/Pods-forgotPassword-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C79FD531FB442AE00E0C998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +504,9 @@
 			files = (
 				2C79FD5D1FB442AF00E0C998 /* ViewController.swift in Sources */,
 				2C79FD631FB442AF00E0C998 /* forgotPassword.xcdatamodeld in Sources */,
+				2C79FD901FB458D300E0C998 /* signUpViewController.swift in Sources */,
+				2C4AE0251FB5ABE200E31B46 /* uploadViewController.swift in Sources */,
+				2C79FD921FB47BE300E0C998 /* forgotPasswordViewController.swift in Sources */,
 				2C79FD5B1FB442AF00E0C998 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,13 +671,14 @@
 		};
 		2C79FD831FB442AF00E0C998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE6990DCFEB9A8610B01F20 /* Pods-forgotPassword.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
 				INFOPLIST_FILE = forgotPassword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPassword;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-topcuSalih-forgotPassword";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +687,14 @@
 		};
 		2C79FD841FB442AF00E0C998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72D1B37D0BD5ABA17F8A411 /* Pods-forgotPassword.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHLQS9ZQQ;
 				INFOPLIST_FILE = forgotPassword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = topcuSalih.TwitterUdemyApp.forgotPassword;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-topcuSalih-forgotPassword";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +703,7 @@
 		};
 		2C79FD861FB442AF00E0C998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E7F3C9974DC9B046FA45E2 /* Pods-forgotPasswordTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +721,7 @@
 		};
 		2C79FD871FB442AF00E0C998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23616A2793AB6E3A56FF2CC7 /* Pods-forgotPasswordTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +739,7 @@
 		};
 		2C79FD891FB442AF00E0C998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E4DCE7087658FE2A969E4F /* Pods-forgotPasswordUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +756,7 @@
 		};
 		2C79FD8A1FB442AF00E0C998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB87284354F1E70C30E0B9A /* Pods-forgotPasswordUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

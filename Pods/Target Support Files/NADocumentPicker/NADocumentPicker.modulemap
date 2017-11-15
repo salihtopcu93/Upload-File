@@ -1,0 +1,6 @@
+framework module NADocumentPicker {
+  umbrella header "NADocumentPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
